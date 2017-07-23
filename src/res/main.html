@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="lib/nouislider.css">
+  <title>Scribo</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="top-box" id="top-box">
+    <input type="text" class="searchbar" id="searchbar" placeholder="Search for notes">
+
+    <div id="signout" class="signout">
+      <p>sign out</p>
+    </div>
+
+  </div>
+
+  <div class="left-box" id="left-box">
+
+  </div>
+
+  <div class="right-box" id="right-box">
+    <div class="switch-to-mp-view" onclick="mainPageView()">New note</div>
+    <div class="save-notes" onclick="saveNotes()">Save notes</div>
+  </div>
+
+  <div class="note-box" id="note-box">
+
+  </div>
+
+  <div class="button-box" id="button-box">
+
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+  <script src="lib/nouislider.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
