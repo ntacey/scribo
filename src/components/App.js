@@ -5,7 +5,7 @@ class App extends Component {
   
 }
 
-mapStateToProps = () => {
+mapStateToProps = () {
   
 }
 
