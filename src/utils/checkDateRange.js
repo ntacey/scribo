@@ -5,9 +5,9 @@
  *
  */
 
-export const checkDateRange = (notesDate, startDate, endDate) {
+export const checkDateRange = (notesDate, startDate, endDate) => {
   notesDate.toString();
   let checkDate = new Date(notesDate);
   
-  return (checkDate >= searchStartDate && checkDate.setHours(0,0,0,0) <= searchEndDate);
+  return (checkDate >= startDate && checkDate.setHours(0,0,0,0) <= endDate);
 };
