@@ -15,13 +15,8 @@
 import 'react';
 import DateSeparator from './DateSeparator';
 
-class DateSlider extends React.component {
-  constructor(props) {
-    this.defaultStartDate;
-    this.defaultEndDate;
-  }
-  
-  render() {
+const DateSlider = (props) => {
+  return(
     <div class="dateslider" id="dateslider">
       <p>Notes between dates:</p>
       <div id="slider-holder">
@@ -29,7 +24,7 @@ class DateSlider extends React.component {
       </div>
       <DateSeparator defaultStartDate={ this.props.defaultStartDate } endDate={ this.props.defaultEndDate } />
     </div>  
-  }
-}
+  )
+};
 
 export default DateSlider;

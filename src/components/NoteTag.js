@@ -9,14 +9,10 @@
 
 import 'react';
 
-class NoteTag extends React.component {
-  constructor(props) {
-    this.props.color;
-  }
-  
-  render() {
+const NoteTag = (props) => {
+  return(
     <button class='note-tag' style='background: { this.props.color }'></button>
-  }
+  )
 };
 
 export default DateSlider;
